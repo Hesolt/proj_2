@@ -6,9 +6,15 @@ namespace proj_2
     {
         static void Main(string[] args)
         {
-            int a = 50;
-            int b = 70;
-            Console.WriteLine($"{b - a}");
+            
+        }
+        
+    }
+    public static class Math
+    {
+        public static int MyMath(int x, int y)
+        {
+            return (x * y);
         }
     }
 }
